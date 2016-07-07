@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet"; type="text/css"; href="stylesheet.css">
+<link rel="stylesheet"; type="text/css"; href="datepicker.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script type="text/javascript"; src="js.js"></script>
+
+</head>
+<body>
+
+<div id="inContainer">
+
+<table id="namdDate"; name="nameDate">
+		<tr><td>Shop</td><td><select id="shop"; class="nameDate";></select></td><td>Name</td><td><select id="name"; class="nameDate";></select></td><td>ID</td><td><input type="text"; id="pWord"; class="nameDate";></td><td>Date</td><td><input type="text"; id="datepicker"; class="nameDate"></td><td><button onclick="addRow()">New Row</button></td><td><button onclick="deleteLastRow()">Delete Last Row</button></td><td><form id="sub"><button type="submit">Submit</button></form></td></tr>
+</table>
+
+<p></p>
+
+<table id="responses"; name="responses">	
+</table>
+
+<p id="feedback"></p>
+
+<form id="form4Submit">
+		<input id="date"; name="Date"; type="text">
+		<input id="shopForm"; name="Shop"; type="text">
+		<input id="employee"; name="Employee"; type="text">
+		<input id="employeeID"; name="EmployeeID"; type="text">
+		<input id="hours" name="Hours" type="text">
+		<input id="localID" name="LocalID" type="text">
+		<input id="objectID" name="ObjectID" type="text">
+		<input id="activityID" name="ActivityID" type="text">
+		<input id="eDif" name="eDif" type="text">
+</form>
+
+<iframe src="#" id="no-target" name="no-target" style="visibility:hidden"></iframe>
+
+</div> <!-- end inContainer -->
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+table{
+	border: solid black 1px;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+input{
+	width: 100px;
+	box-sizing: border-box;
+	text-align: left;
+	margin: 0px 10px 0px 0px;
+}
+
+#pWord{
+	width: 50px;
+}
+
+select{
+	width: 175px;
+	box-sizing: border-box;
+	text-align: left;
+	margin: 0px 10px 0px 0px;
+}
+
+button{
+	border-radius: 5px;
+	width: 132px;
+	float: right;
+	margin: 0px 10px 0px 10px;
+}
+
+button:hover{
+	background: LightGray;
+}
+
+#form4Submit{
+	display: none;
+}
